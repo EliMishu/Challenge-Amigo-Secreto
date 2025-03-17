@@ -38,5 +38,5 @@ function sortearAmigo() {
 
     const indiceAleatorio = Math.floor(Math.random() * amigos.length);
     const resultado = document.getElementById("resultado");
-    resultado.innerHTML = `<li> El amigo secreto es: <strong>${amigos[indiceAleatorio]}</strong> 🎁</li>`;
+    resultado.innerHTML = `<li> 🎉 El amigo secreto es: <strong>${amigos[indiceAleatorio]}</strong> 🎁</li>`;
 }
